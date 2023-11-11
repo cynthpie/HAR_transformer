@@ -1,0 +1,121 @@
+model_name = HARTrans, lr = 5e-05, wd = lr = 1e-05 sample = 4, batch_size = 8, epochs = 200
+window_size = 700, hlayers = 9, hheads = 27, vlayers = 6, vheads = 350
+filter_size = [10, 35, 70, 115], filter_size_v = [2, 8, 12], kernel_num = 256, kernel_num_v = 16
+dropout_rate = 0.5, com_dim = 50, K = 7, clip_gradient = 0.8
+
+
+this is fold 0
+the accuracy is 0.7916666666666666
+ Final confusion matrix:
+
+Activity 1:
+[135   9]
+[ 5 91]
+
+Activity 2:
+[149   7]
+[ 8 76]
+
+Activity 3:
+[127   9]
+[11 93]
+
+Activity 4:
+[143   0]
+[ 9 88]
+
+Activity 5:
+[135   6]
+[ 7 92]
+this is fold 1
+the accuracy is 0.8416666666666667
+ Final confusion matrix:
+
+Activity 1:
+[145   3]
+[ 6 86]
+
+Activity 2:
+[137   3]
+[ 9 91]
+
+Activity 3:
+[138   4]
+[ 8 90]
+
+Activity 4:
+[146   3]
+[ 7 84]
+
+Activity 5:
+[136   5]
+[ 2 97]
+this is fold 2
+the accuracy is 0.8
+ Final confusion matrix:
+
+Activity 1:
+[134   2]
+[ 7 97]
+
+Activity 2:
+[141   5]
+[14 80]
+
+Activity 3:
+[131  10]
+[ 7 92]
+
+Activity 4:
+[140   4]
+[ 3 93]
+
+Activity 5:
+[146   7]
+[ 8 79]
+this is fold 3
+the accuracy is 0.7958333333333333
+ Final confusion matrix:
+
+Activity 1:
+[142   6]
+[ 7 85]
+
+Activity 2:
+[127   5]
+[  8 100]
+
+Activity 3:
+[135  13]
+[ 5 87]
+
+Activity 4:
+[144   4]
+[14 78]
+
+Activity 5:
+[134  10]
+[ 7 89]
+this is fold 4
+the accuracy is 0.7958333333333333
+ Final confusion matrix:
+
+Activity 1:
+[139   5]
+[ 3 93]
+
+Activity 2:
+[141   5]
+[11 83]
+
+Activity 3:
+[148   5]
+[ 5 82]
+
+Activity 4:
+[131   5]
+[14 90]
+
+Activity 5:
+[137   4]
+[11 88]

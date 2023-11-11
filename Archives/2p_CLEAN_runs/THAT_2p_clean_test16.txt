@@ -1,0 +1,6 @@
+model_name = HARTrans, lr = 0.001, wd = lr = 0.0 sample = 8, batch_size = 16, epochs = 50
+window_size = 350, hlayers = 9, hheads = 27, vlayers = 6, vheads = 100
+filter_size = [10, 40], filter_size_v = [2, 4], kernel_num = 128, kernel_num_v = 16
+dropout_rate = 0.5, com_dim = 50, K = 10
+
+

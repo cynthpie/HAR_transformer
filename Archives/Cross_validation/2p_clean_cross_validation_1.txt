@@ -1,0 +1,115 @@
+this is fold 0
+the accuracy is 0.8958333333333334
+ Final confusion matrix:
+
+Activity 1:
+[135   1]
+[ 8 96]
+
+Activity 2:
+[136   8]
+[ 1 95]
+
+Activity 3:
+[142   8]
+[ 1 89]
+
+Activity 4:
+[133   6]
+[ 5 96]
+
+Activity 5:
+[149   2]
+[11 78]
+this is fold 1
+the accuracy is 0.8625
+ Final confusion matrix:
+
+Activity 1:
+[151   1]
+[10 78]
+
+Activity 2:
+[137  12]
+[ 5 86]
+
+Activity 3:
+[137   7]
+[ 3 93]
+
+Activity 4:
+[131   8]
+[ 4 97]
+
+Activity 5:
+[128   8]
+[12 92]
+this is fold 2
+the accuracy is 0.85
+ Final confusion matrix:
+
+Activity 1:
+[133   9]
+[ 1 97]
+
+Activity 2:
+[135  10]
+[ 4 91]
+
+Activity 3:
+[142   8]
+[ 2 88]
+
+Activity 4:
+[139   2]
+[ 6 93]
+
+Activity 5:
+[142   0]
+[19 79]
+this is fold 3
+the accuracy is 0.875
+ Final confusion matrix:
+
+Activity 1:
+[123   2]
+[  7 108]
+
+Activity 2:
+[143  11]
+[ 7 79]
+
+Activity 3:
+[130   8]
+[  2 100]
+
+Activity 4:
+[157   4]
+[ 5 74]
+
+Activity 5:
+[138   4]
+[ 6 92]
+this is fold 4
+the accuracy is 0.8702928870292888
+ Final confusion matrix:
+
+Activity 1:
+[158   6]
+[ 7 68]
+
+Activity 2:
+[121   7]
+[ 11 100]
+
+Activity 3:
+[129   8]
+[ 3 99]
+
+Activity 4:
+[133   7]
+[ 8 91]
+
+Activity 5:
+[139   9]
+[ 6 85]

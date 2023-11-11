@@ -1,0 +1,98 @@
+model_name = HARTrans, lr = 5e-05, wd = lr = 0.0 sample = 2, batch_size = 3, epochs = 70
+window_size = 700, hlayers = 7, hheads = 27, vlayers = 1, vheads = 70
+filter_size = [10, 35, 70, 115], filter_size_v = [2, 8, 12], kernel_num = 256, kernel_num_v = 16
+dropout_rate = 0.5, com_dim = 50, K = 20, clip_gradient = 0.8
+
+
+Model loss after 1 epochs = 0.2397691160440445, accuracy = 0.42916666666666664, best_accuracy = 0.42916666666666664, time_cost = 0.9888119697570801s 
+Model loss after 2 epochs = 0.48244354128837585, accuracy = 0.44583333333333336, best_accuracy = 0.44583333333333336, time_cost = 0.9926245212554932s 
+Model loss after 3 epochs = 0.09287869185209274, accuracy = 0.5833333333333334, best_accuracy = 0.5833333333333334, time_cost = 1.014172077178955s 
+Model loss after 4 epochs = 0.5198847055435181, accuracy = 0.6, best_accuracy = 0.6, time_cost = 1.1009206771850586s 
+Model loss after 5 epochs = 0.33955544233322144, accuracy = 0.5791666666666667, best_accuracy = 0.6, time_cost = 1.001377820968628s 
+Model loss after 6 epochs = 0.07173369079828262, accuracy = 0.6458333333333334, best_accuracy = 0.6458333333333334, time_cost = 0.9991099834442139s 
+Model loss after 7 epochs = 0.17563527822494507, accuracy = 0.6833333333333333, best_accuracy = 0.6833333333333333, time_cost = 0.961860179901123s 
+Model loss after 8 epochs = 0.026086080819368362, accuracy = 0.6541666666666667, best_accuracy = 0.6833333333333333, time_cost = 1.0068445205688477s 
+Model loss after 9 epochs = 0.07378491759300232, accuracy = 0.6458333333333334, best_accuracy = 0.6833333333333333, time_cost = 1.0026202201843262s 
+Model loss after 10 epochs = 0.35321223735809326, accuracy = 0.6791666666666667, best_accuracy = 0.6833333333333333, time_cost = 1.0032479763031006s 
+Model loss after 11 epochs = 0.004582814406603575, accuracy = 0.6666666666666666, best_accuracy = 0.6833333333333333, time_cost = 0.9980137348175049s 
+Model loss after 12 epochs = 0.023425597697496414, accuracy = 0.675, best_accuracy = 0.6833333333333333, time_cost = 1.006211757659912s 
+Model loss after 13 epochs = 0.16177642345428467, accuracy = 0.6916666666666667, best_accuracy = 0.6916666666666667, time_cost = 1.013869047164917s 
+Model loss after 14 epochs = 0.0005784739623777568, accuracy = 0.6958333333333333, best_accuracy = 0.6958333333333333, time_cost = 1.0071563720703125s 
+Model loss after 15 epochs = 0.05605556443333626, accuracy = 0.6708333333333333, best_accuracy = 0.6958333333333333, time_cost = 1.0120246410369873s 
+Model loss after 16 epochs = 0.5958495736122131, accuracy = 0.725, best_accuracy = 0.725, time_cost = 0.9903807640075684s 
+Model loss after 17 epochs = 0.23024213314056396, accuracy = 0.7041666666666667, best_accuracy = 0.725, time_cost = 1.0114436149597168s 
+Model loss after 18 epochs = 0.3061239421367645, accuracy = 0.7333333333333333, best_accuracy = 0.7333333333333333, time_cost = 1.0080418586730957s 
+Model loss after 19 epochs = 0.19169412553310394, accuracy = 0.6958333333333333, best_accuracy = 0.7333333333333333, time_cost = 1.0045506954193115s 
+Model loss after 20 epochs = 0.18680843710899353, accuracy = 0.7208333333333333, best_accuracy = 0.7333333333333333, time_cost = 1.0042808055877686s 
+Model loss after 21 epochs = 0.020307743921875954, accuracy = 0.7208333333333333, best_accuracy = 0.7333333333333333, time_cost = 1.0044898986816406s 
+Model loss after 22 epochs = 9.222630615113303e-05, accuracy = 0.6916666666666667, best_accuracy = 0.7333333333333333, time_cost = 0.9873762130737305s 
+Model loss after 23 epochs = 0.39468300342559814, accuracy = 0.7166666666666667, best_accuracy = 0.7333333333333333, time_cost = 1.0047597885131836s 
+Model loss after 24 epochs = 0.003953796811401844, accuracy = 0.7208333333333333, best_accuracy = 0.7333333333333333, time_cost = 1.021414041519165s 
+Model loss after 25 epochs = 0.42010968923568726, accuracy = 0.725, best_accuracy = 0.7333333333333333, time_cost = 1.0243339538574219s 
+Model loss after 26 epochs = 0.19329534471035004, accuracy = 0.7291666666666666, best_accuracy = 0.7333333333333333, time_cost = 1.0302791595458984s 
+Model loss after 27 epochs = 0.09477957338094711, accuracy = 0.7333333333333333, best_accuracy = 0.7333333333333333, time_cost = 0.9991884231567383s 
+Model loss after 28 epochs = 0.0020425464026629925, accuracy = 0.7291666666666666, best_accuracy = 0.7333333333333333, time_cost = 1.0146193504333496s 
+Model loss after 29 epochs = 2.3811626306269318e-05, accuracy = 0.7333333333333333, best_accuracy = 0.7333333333333333, time_cost = 0.9527232646942139s 
+Model loss after 30 epochs = 0.08533383905887604, accuracy = 0.7333333333333333, best_accuracy = 0.7333333333333333, time_cost = 1.0115528106689453s 
+Model loss after 31 epochs = 0.005180560052394867, accuracy = 0.725, best_accuracy = 0.7333333333333333, time_cost = 0.9972467422485352s 
+Model loss after 32 epochs = 0.02361605502665043, accuracy = 0.7458333333333333, best_accuracy = 0.7458333333333333, time_cost = 1.021921157836914s 
+Model loss after 33 epochs = 0.0035231777001172304, accuracy = 0.725, best_accuracy = 0.7458333333333333, time_cost = 1.0263285636901855s 
+Model loss after 34 epochs = 0.0018467565532773733, accuracy = 0.7041666666666667, best_accuracy = 0.7458333333333333, time_cost = 1.0159103870391846s 
+Model loss after 35 epochs = 1.626115322113037, accuracy = 0.725, best_accuracy = 0.7458333333333333, time_cost = 1.0150108337402344s 
+Model loss after 36 epochs = 0.03638263791799545, accuracy = 0.7041666666666667, best_accuracy = 0.7458333333333333, time_cost = 1.0153908729553223s 
+Model loss after 37 epochs = 0.54062420129776, accuracy = 0.7, best_accuracy = 0.7458333333333333, time_cost = 1.0209410190582275s 
+Model loss after 38 epochs = 0.349185973405838, accuracy = 0.7125, best_accuracy = 0.7458333333333333, time_cost = 0.993976354598999s 
+Model loss after 39 epochs = 1.203285813331604, accuracy = 0.7041666666666667, best_accuracy = 0.7458333333333333, time_cost = 0.9989967346191406s 
+Model loss after 40 epochs = 0.9952262043952942, accuracy = 0.7166666666666667, best_accuracy = 0.7458333333333333, time_cost = 1.0020170211791992s 
+Model loss after 41 epochs = 0.9576401114463806, accuracy = 0.7375, best_accuracy = 0.7458333333333333, time_cost = 0.9979112148284912s 
+Model loss after 42 epochs = 0.009469335898756981, accuracy = 0.7041666666666667, best_accuracy = 0.7458333333333333, time_cost = 0.9704122543334961s 
+Model loss after 43 epochs = 0.002699364209547639, accuracy = 0.7291666666666666, best_accuracy = 0.7458333333333333, time_cost = 0.9459867477416992s 
+Model loss after 44 epochs = 0.37472352385520935, accuracy = 0.7375, best_accuracy = 0.7458333333333333, time_cost = 1.0926649570465088s 
+Model loss after 45 epochs = 0.012562630698084831, accuracy = 0.7333333333333333, best_accuracy = 0.7458333333333333, time_cost = 1.0046844482421875s 
+Model loss after 46 epochs = 1.076491117477417, accuracy = 0.7125, best_accuracy = 0.7458333333333333, time_cost = 1.0090467929840088s 
+Model loss after 47 epochs = 0.2411816120147705, accuracy = 0.7166666666666667, best_accuracy = 0.7458333333333333, time_cost = 0.9910051822662354s 
+Model loss after 48 epochs = 1.6624680757522583, accuracy = 0.7166666666666667, best_accuracy = 0.7458333333333333, time_cost = 1.0054588317871094s 
+Model loss after 49 epochs = 0.8060046434402466, accuracy = 0.7166666666666667, best_accuracy = 0.7458333333333333, time_cost = 1.0104773044586182s 
+Model loss after 50 epochs = 2.582870592959807e-07, accuracy = 0.725, best_accuracy = 0.7458333333333333, time_cost = 1.0193016529083252s 
+Model loss after 51 epochs = 0.28708577156066895, accuracy = 0.75, best_accuracy = 0.75, time_cost = 1.0106182098388672s 
+Model loss after 52 epochs = 4.768373074170995e-08, accuracy = 0.6833333333333333, best_accuracy = 0.75, time_cost = 1.0080304145812988s 
+Model loss after 53 epochs = 0.019153935834765434, accuracy = 0.75, best_accuracy = 0.75, time_cost = 1.013265609741211s 
+Model loss after 54 epochs = 0.7038689851760864, accuracy = 0.7333333333333333, best_accuracy = 0.75, time_cost = 1.0008361339569092s 
+Model loss after 55 epochs = 0.0005946457968093455, accuracy = 0.7083333333333334, best_accuracy = 0.75, time_cost = 0.993804931640625s 
+Model loss after 56 epochs = 0.0003934621054213494, accuracy = 0.7208333333333333, best_accuracy = 0.75, time_cost = 0.989598274230957s 
+Model loss after 57 epochs = 0.11820043623447418, accuracy = 0.7166666666666667, best_accuracy = 0.75, time_cost = 0.995842456817627s 
+Model loss after 58 epochs = 1.986824145205901e-07, accuracy = 0.7208333333333333, best_accuracy = 0.75, time_cost = 1.0062808990478516s 
+Model loss after 59 epochs = 0.18117381632328033, accuracy = 0.7541666666666667, best_accuracy = 0.7541666666666667, time_cost = 1.0139551162719727s 
+Model loss after 60 epochs = 0.02842862717807293, accuracy = 0.7375, best_accuracy = 0.7541666666666667, time_cost = 1.0321435928344727s 
+Model loss after 61 epochs = 0.18626593053340912, accuracy = 0.7416666666666667, best_accuracy = 0.7541666666666667, time_cost = 1.0189902782440186s 
+Model loss after 62 epochs = 0.0012785502476617694, accuracy = 0.7375, best_accuracy = 0.7541666666666667, time_cost = 0.9656939506530762s 
+Model loss after 63 epochs = 0.1357947140932083, accuracy = 0.7458333333333333, best_accuracy = 0.7541666666666667, time_cost = 0.9684484004974365s 
+Model loss after 64 epochs = 0.13940086960792542, accuracy = 0.7166666666666667, best_accuracy = 0.7541666666666667, time_cost = 0.9818098545074463s 
+Model loss after 65 epochs = 0.8236562013626099, accuracy = 0.7166666666666667, best_accuracy = 0.7541666666666667, time_cost = 0.9900028705596924s 
+Model loss after 66 epochs = 2.7020794846066565e-07, accuracy = 0.7583333333333333, best_accuracy = 0.7583333333333333, time_cost = 1.0505099296569824s 
+Model loss after 67 epochs = 1.0684462785720825, accuracy = 0.7375, best_accuracy = 0.7583333333333333, time_cost = 1.003068447113037s 
+Model loss after 68 epochs = 0.002448628656566143, accuracy = 0.7041666666666667, best_accuracy = 0.7583333333333333, time_cost = 0.9896731376647949s 
+Model loss after 69 epochs = 0.00042005523573607206, accuracy = 0.7458333333333333, best_accuracy = 0.7583333333333333, time_cost = 0.9873404502868652s 
+Model loss after 70 epochs = 0.0, accuracy = 0.75, best_accuracy = 0.7583333333333333, time_cost = 0.9894099235534668s 
+
+ Final confusion matrix:
+
+Activity 1:
+[3 0]
+[0 0]
+
+Activity 2:
+[3 0]
+[0 0]
+
+Activity 3:
+[1 0]
+[0 2]
+
+Activity 4:
+[1 0]
+[0 2]
+
+Activity 5:
+[1 0]
+[0 2]
